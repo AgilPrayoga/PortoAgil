@@ -10,9 +10,9 @@ const AboutMe = () =>{
        <div>
         
         <NavBar/>
-        <div className=" sm:h-[90vh] bg-[#2C3333] flex flex-col sm:flex-row justify-center items-center pt-9 sm:pt-4 overflow-hidden">
+        <div className=" sm:h-[90vh] bg-[#2C3333] flex flex-col sm:flex-row justify-center items-center pt-9 sm:pt-6 overflow-hidden">
             <div className="m-8">
-                <m.h1 className="font-extrabold font-montserrat text-[60px] text-[#d5ceb6] mb-5 "
+                <m.h1 className="font-extrabold font-montserrat text-[60px] text-[#d5ceb6] mb-2 "
                 initial={{ opacity: 0, y:100  }}
                 animate={{  opacity: [0, 1, 0, 1],x:[0],opacity: [0, 1, 0, 1,],y:[-300,0] }}
                 exit={{ opacity: [0, 1, 0, 1, 0] ,x:[0,300] }}
@@ -24,7 +24,7 @@ const AboutMe = () =>{
                 exit={{ opacity: [0, 1, 0, 1, 0] ,x:[0,300] }}
                 
                 
-                >Hello World!. My name is Ari Agil Prayoga,but my friends ussualy call me <a className="text-[#d5ceb6] font-montserrat w-fit hover:text-[#2C3333] hover:bg-[#d5ceb6]">AGIL</a> . </m.p>
+                >Hello World!. My name is Ari Agil Prayoga,but my friends usually call me <a className="text-[#d5ceb6] font-montserrat w-fit hover:text-[#2C3333] hover:bg-[#d5ceb6]">AGIL</a> . </m.p>
                 <br />
                 <m.p className="font-sans font-thin text-justify  tracking-wide text-[#d5ceb6]"
                 initial={{ opacity: 0, y:500  }}

@@ -11,7 +11,7 @@ const Work= () =>{
        <div>
         
         <NavBar/>
-        <div className="sm:h-[90vh] bg-[#2C3333] flex justify-center items-center flex-col pt-28 sm:pt-0 py-4">
+        <div className="sm:h-[90vh] bg-[#2C3333] flex justify-center items-center flex-col pt-28 sm:pt-0 ">
             <m.h1 className="font-extrabold font-montserrat text-[40px] text-[#d5ceb6] sm:mb-6 "
             
             initial={{ opacity: 0, y:500  }}
@@ -21,13 +21,13 @@ const Work= () =>{
             
             >LARAVEL <a className="text-[#2C3333] bg-[#d5ceb6] ">WORKS</a></m.h1>
             <div className="flex flex-col sm:flex-row justify-center items-center">
-                <div className="sm:mr-28  flex justify-center items-center mb-4 flex-col">
+                <div className="sm:mr-28  flex justify-center items-center mb-2 flex-col">
                     <div class="embed-responsive embed-responsive-21by9">
                         <iframe  src="https://www.youtube.com/embed/rgpFN3p9YgI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
                     </div>
                     
                 </div>
-                <div className="sm:mr-28 mb-4">
+                <div className="sm:mr-28 mb-2">
                     <div class="embed-responsive embed-responsive-21by9">
                         <iframe  src="https://www.youtube.com/embed/-1DbcLiqOKw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
                     </div>
