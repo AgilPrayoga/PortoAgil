@@ -11,8 +11,8 @@ const Work= () =>{
        <div>
         
         <NavBar/>
-        <div className="h-[90vh] bg-[#2C3333] flex justify-center items-center flex-col pt-4">
-            <m.h1 className="font-extrabold font-montserrat text-[40px] text-[#d5ceb6] mb-6 "
+        <div className="sm:h-[90vh] bg-[#2C3333] flex justify-center items-center flex-col py-4">
+            <m.h1 className="font-extrabold font-montserrat text-[40px] text-[#d5ceb6] sm:mb-6 "
             
             initial={{ opacity: 0, y:500  }}
             animate={{  opacity: [0, 1, 0, 1,],x:[0],y:[500,0] }}
@@ -20,14 +20,14 @@ const Work= () =>{
             exit={{ opacity: [0, 1, 0, 1, 0] ,x:[500,0] }}
             
             >LARAVEL <a className="text-[#2C3333] bg-[#d5ceb6] ">WORKS</a></m.h1>
-            <div className="flex justify-center ">
-                <div className="mr-28  flex justify-center items-center flex-col">
+            <div className="flex flex-col sm:flex-row justify-center items-center">
+                <div className="sm:mr-28  flex justify-center items-center mb-4 flex-col">
                     <div class="embed-responsive embed-responsive-21by9">
                         <iframe  src="https://www.youtube.com/embed/rgpFN3p9YgI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
                     </div>
                     
                 </div>
-                <div className="mr-28">
+                <div className="sm:mr-28 mb-4">
                     <div class="embed-responsive embed-responsive-21by9">
                         <iframe  src="https://www.youtube.com/embed/-1DbcLiqOKw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
                     </div>

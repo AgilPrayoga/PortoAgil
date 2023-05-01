@@ -10,7 +10,7 @@ const AboutMe = () =>{
        <div>
         
         <NavBar/>
-        <div className="h-[90vh] bg-[#2C3333] flex justify-center items-center pt-4 overflow-hidden">
+        <div className=" sm:h-[90vh] bg-[#2C3333] flex flex-col sm:flex-row justify-center items-center pt-4 overflow-hidden">
             <div className="m-8">
                 <m.h1 className="font-extrabold font-montserrat text-[60px] text-[#d5ceb6] mb-5 "
                 initial={{ opacity: 0, y:100  }}
@@ -60,7 +60,7 @@ const AboutMe = () =>{
             transision={{ease:'anticipate',duration:2}}
             exit={{ opacity: [0, 1, 0, 1, 0] ,x:[500,0] }}
             >
-                <div className="flex items-center justify-center bg-[#d5ceb6]   h-[300px] w-[300px] overflow-hidden">
+                <div className="hidden sm:flex items-center justify-center bg-[#d5ceb6]   h-[300px] w-[300px] overflow-hidden">
                 <img src={Me}/>
                 
 

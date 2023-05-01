@@ -35,24 +35,24 @@ const NavBar = () =>{
             </div>
             <div>
                 <div className=" font-medium flex sm:hidden flex-col items-center justify-center">
-                    <a className="no-underline"href=''>
+                    <NavLink className="no-underline"to={'/'}>
                         <li className="bg-gray-200 w-screen list-none py-4 flex justify-center">
                             
-                            <h3 className="text-[#333] font-bold mr-[30px] no-underline font-montserrat hover:text-[#333] " >Home</h3>
+                            <h3 className="text-[#F0E9D2] bg-[#2C3333] font-bold mr-[30px] no-underline font-montserrat  " >HOME</h3>
                         </li>
-                    </a>
-                    <a className="no-underline" href=''>
+                    </NavLink>
+                    <NavLink className="no-underline" to={'/aboutme'}>
                         <li className="bg-gray-200 w-screen list-none py-4 flex justify-center">
                             
-                            <h3 className="text-[#333] font-bold mr-[30px] no-underline font-montserrat hover:text-[#333] " >Old Stuff</h3>
+                            <h3 className="text-[#F0E9D2] bg-[#2C3333] font-bold mr-[30px] no-underline font-montserrat  " >ABOUT ME</h3>
                         </li>
-                    </a>
-                    <a className="no-underline" href=''>
+                    </NavLink>
+                    <NavLink className="no-underline" to={'/work'}>
                         <li className="bg-gray-200 w-screen list-none py-4 flex justify-center">
                             
-                            <h3 className="text-[#333] font-bold mr-[30px] no-underline font-montserrat hover:text-[#333] " >Contact</h3>
+                            <h3 className="text-[#F0E9D2] bg-[#2C3333] font-bold mr-[30px] no-underline font-montserrat  " >WORK</h3>
                         </li>
-                    </a>
+                    </NavLink>
                     
                     
                     
