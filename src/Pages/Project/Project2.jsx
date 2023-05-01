@@ -27,7 +27,7 @@ const Project1= () =>{
                 animate={{  opacity: [0, 1, 0, 1],x:[0],opacity: [0, 1, 0, 1,],y:[-300,0] }}
                 exit={{ opacity: [0, 1, 0, 1, 0] ,x:[0,300] }}
 
-                ><a className="text-[#2C3333] bg-[#d5ceb6] ">SO</a>BAT LOKER</m.h1>
+                ><a className="text-[#2C3333] bg-[#d5ceb6] ">Antique</a>Gallery</m.h1>
                 <m.p className="font-sans font-thin tracking-wide text-[#d5ceb6]"
                 initial={{ opacity: 0, x:[300]  }}
                 animate={{  opacity: [0, 1, 0, 1,0, 1, 0, 1,0, 1, 0, 1],x:[0],opacity: [0, 1, 0, 1,0, 1, 0, 1,0, 1, 0, 1],x:[-300,0] }}
