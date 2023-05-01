@@ -20,7 +20,7 @@ const NavBar = () =>{
                         <NavLink className="text-[#F0E9D2]  font-thin mr-[30px] no-underline font-montserrat hover:text-[#333] hover:bg-[#F0E9D2]"to={'/aboutme'}>ABOUT ME</NavLink>
                     </li>
                     <li className="flex items-center">
-                        <NavLink className="text-[#F0E9D2]  font-bold mr-[30px] no-underline font-montserrat hover:text-[#333] hover:bg-[#F0E9D2]" to={'/work'}>WORK</NavLink>
+                        <NavLink className="text-[#F0E9D2]  font-bold no-underline font-montserrat hover:text-[#333] hover:bg-[#F0E9D2]" to={'/work'}>WORK</NavLink>
                     </li>
                     
                     
