@@ -6,6 +6,7 @@ import Project1 from './Pages/Project/Project1';
 import AboutMe from './Pages/AboutMe';
 import Home from './Pages/Home';
 import Project2 from './Pages/Project/Project2';
+import 'flowbite'
 
 
 function App() {

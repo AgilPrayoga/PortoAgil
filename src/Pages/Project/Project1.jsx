@@ -1,9 +1,9 @@
 import NavBar from "../../Components/NavBar"
 import Footer from "../../Components/Footer"
-import { NavLink } from "react-router-dom"
+
 import { motion as m } from "framer-motion"
 import Pro from"../../assets/project1.png"
-
+import 'flowbite'
 
 
 
@@ -12,7 +12,7 @@ const Project1= () =>{
        <div>
         
         <NavBar/>
-        <div className="py-32 sm:py-0 sm:h-[90vh] bg-[#2C3333] flex justify-center items-center flex-col-reverse sm:flex-row-reverse pt-4">
+        <div className="pt-20 sm:pt-4 sm:h-[90vh] bg-[#2C3333] flex justify-center items-center flex-col-reverse sm:flex-row-reverse ">
         <m.div className="flex items-center w-[70%] sm:w-[30%] border border-[#d5ceb6] p-2 overflow-hidden"
             initial={{ opacity: 0, y:500  }}
             animate={{  opacity: [0, 1, 0, 1,],x:[0],y:[500,0] }}

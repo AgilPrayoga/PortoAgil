@@ -3,7 +3,7 @@ import Footer from "../Components/Footer"
 import Dipo from "../assets/dipo.png"
 import { NavLink } from "react-router-dom"
 import { motion as m } from "framer-motion"
-
+import 'flowbite'
 
 
 const Home= () =>{
@@ -11,14 +11,14 @@ const Home= () =>{
        <div>
         
         <NavBar/>
-        <div className="h-[90vh] bg-[#2C3333] flex justify-center flex-col sm:flex-row items-center pt-4">
+        <div className="h-[90vh] bg-[#2C3333] flex justify-center flex-col sm:flex-row items-center pt-20 sm:pt-4">
             <div className="flex  flex-col items-left">
             <m.h1 className="font-extrabold font-montserrat text-[30px] sm:text-[40px] text-[#d5ceb6] "
             initial={{ opacity: 0, x:100  }}
             animate={{  opacity: [0, 1, 0, 1],x:[100,0],y:[0] }}
             exit={{ opacity: [0, 1, 0, 1, 0] ,x:[0,100] }}
             
-            >DIGITAL UNIVERSE<a className="text-[#2C3333] bg-[#d5ceb6] "></a></m.h1>
+            >DIGITAL UNIVERSE<a href="" className="text-[#2C3333] bg-[#d5ceb6] "></a></m.h1>
             <m.div
             initial={{ opacity: 0, y:100  }}
             animate={{  opacity: [0, 1, 0, 1,0, 1, 0, 1,0, 1, 0, 1],x:[0],opacity: [0, 1, 0, 1,0, 1, 0, 1,0, 1, 0, 1],y:[100,0] }}

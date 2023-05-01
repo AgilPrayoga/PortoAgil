@@ -2,7 +2,7 @@ import NavBar from "../Components/NavBar"
 import Footer from "../Components/Footer"
 import { NavLink } from "react-router-dom"
 import { motion as m } from "framer-motion"
-
+import 'flowbite'
 
 
 
@@ -11,7 +11,7 @@ const Work= () =>{
        <div>
         
         <NavBar/>
-        <div className="sm:h-[90vh] bg-[#2C3333] flex justify-center items-center flex-col py-4">
+        <div className="sm:h-[90vh] bg-[#2C3333] flex justify-center items-center flex-col pt-28 sm:pt-0 py-4">
             <m.h1 className="font-extrabold font-montserrat text-[40px] text-[#d5ceb6] sm:mb-6 "
             
             initial={{ opacity: 0, y:500  }}
