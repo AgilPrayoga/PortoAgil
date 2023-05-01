@@ -25,7 +25,7 @@ const Home= () =>{
             exit={{ opacity: [0, 1, 0, 1, 0] ,x:[0,100] }}
             
             >
-            <h1 className="font-bold font-montserrat  tracking-[30px] text-justify  text-[#2C3333] bg-[#d5ceb6] w-fit ">EXPLORERy </h1>
+            <h1 className="font-bold font-montserrat  tracking-[30px] text-justify  text-[#2C3333] bg-[#d5ceb6] w-fit ">EXPLORER </h1>
             <br />
             <h3 className="font-bold font-montserrat text-[18px] text-[#d5ceb6] ">Student | Web Developer | UI&UX Designer</h3>
             <h3 className="font-thin font-montserrat text-[16px] text-[#d5ceb6] ">ヽ(*・ω・)ﾉCorious about me? <NavLink to={"/aboutme"} className="text-[#d5ceb6]  font-montserrat w-fit hover:text-[#2C3333] hover:bg-[#d5ceb6]"> Learn More </NavLink>  </h3>
