@@ -60,7 +60,7 @@ const AboutMe = () =>{
             transision={{ease:'anticipate',duration:2}}
             exit={{ opacity: [0, 1, 0, 1, 0] ,x:[500,0] }}
             >
-                <div className="hidden sm:flex items-center justify-center bg-[#d5ceb6]   h-[300px] w-[300px] overflow-hidden">
+                <div className=" flex items-center justify-center bg-[#d5ceb6]   h-[300px] w-[300px] overflow-hidden">
                 <img src={Me}/>
                 
 
