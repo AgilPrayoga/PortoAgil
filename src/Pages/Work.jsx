@@ -19,7 +19,7 @@ const Work= () =>{
             transision={{ease:'anticipate',duration:2}}
             exit={{ opacity: [0, 1, 0, 1, 0] ,x:[500,0] }}
             
-            >LARAVEL <a className="text-[#2C3333] bg-[#d5ceb6] ">WORKS</a></m.h1>
+            >LARAVEL <a className="text-[#2C3333] bg-[#d5ceb6] ">PROJECTS</a></m.h1>
             <div className="flex flex-col sm:flex-row justify-center items-center">
                 <div className="sm:mr-28  flex justify-center items-center mb-2 flex-col">
                     <div class="embed-responsive embed-responsive-21by9">
