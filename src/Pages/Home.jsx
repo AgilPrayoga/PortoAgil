@@ -44,7 +44,7 @@ const Home= () =>{
                 <img className="h-[200px]" src={Dipo} />
                 <p className="text-[#d5ceb6]">hello,i'm dipo!</p>
             </m.div>
-
+            
         </div>
         <Footer/>
 
