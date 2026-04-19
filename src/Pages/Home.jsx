@@ -18,14 +18,14 @@ const Home= () =>{
             animate={{  opacity: [0, 1, 0, 1],x:[100,0],y:[0] }}
             exit={{ opacity: [0, 1, 0, 1, 0] ,x:[0,100] }}
             
-            >BUILDING DIGITAL<a href="" className="text-[#2C3333] bg-[#d5ceb6] "></a></m.h1>
+            >BUILDING DIGITAL<a href="#" className="text-[#2C3333] bg-[#d5ceb6] "></a></m.h1>
             <m.div
             initial={{ opacity: 0, y:100  }}
-            animate={{  opacity: [0, 1, 0, 1,0, 1, 0, 1,0, 1, 0, 1],x:[0],opacity: [0, 1, 0, 1,0, 1, 0, 1,0, 1, 0, 1],y:[100,0] }}
+            animate={{  opacity: [0, 1, 0, 1,0, 1, 0, 1,0, 1, 0, 1],x:[0],y:[100,0] }}
             exit={{ opacity: [0, 1, 0, 1, 0] ,x:[0,100] }}
             
             >
-            <h1 className="font-bold font-montserrat  tracking-[30px] text-justify  text-[#2C3333] bg-[#d5ceb6] w-fit ">SOLITIONS</h1>
+            <h1 className="font-bold font-montserrat  tracking-[30px] text-justify  text-[#2C3333] bg-[#d5ceb6] w-fit ">SOLUTIONS</h1>
             <br />
             <h3 className="font-bold font-montserrat text-[18px] text-[#d5ceb6] ">Staff IT | Full Stack Web Developer </h3>
             <h3 className="font-thin font-montserrat text-[16px] text-[#d5ceb6] ">ヽ(*・ω・)ﾉCurious about me?______ <NavLink to={"/aboutme"} className="text-[#d5ceb6]  font-montserrat w-fit hover:text-[#2C3333] hover:bg-[#d5ceb6]"> Learn More </NavLink>  </h3>
