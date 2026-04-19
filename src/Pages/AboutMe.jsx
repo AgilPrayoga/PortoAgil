@@ -14,13 +14,13 @@ const AboutMe = () =>{
             <div className="m-8">
                 <m.h1 className="font-extrabold font-montserrat text-[60px] text-[#d5ceb6] mb-2 "
                 initial={{ opacity: 0, y:100  }}
-                animate={{  opacity: [0, 1, 0, 1],x:[0],opacity: [0, 1, 0, 1,],y:[-300,0] }}
+                animate={{  opacity: [0, 1, 0, 1],x:[0],y:[-300,0] }}
                 exit={{ opacity: [0, 1, 0, 1, 0] ,x:[0,300] }}
 
                 >ABOUT <a className="text-[#2C3333] bg-[#d5ceb6] ">ME</a></m.h1>
                 <m.p className="font-sans font-thin tracking-widerst text-[#d5ceb6]"
                 initial={{ opacity: 0, x:[300]  }}
-                animate={{  opacity: [0, 1, 0, 1,0, 1, 0, 1,0, 1, 0, 1],x:[0],opacity: [0, 1, 0, 1,0, 1, 0, 1,0, 1, 0, 1],x:[-300,0] }}
+                animate={{  opacity: [0, 1, 0, 1,0, 1, 0, 1,0, 1, 0, 1],x:[0],x:[-300,0] }}
                 exit={{ opacity: [0, 1, 0, 1, 0] ,x:[0,300] }}
                 
                 
@@ -28,7 +28,7 @@ const AboutMe = () =>{
                 <br />
                 <m.p className="font-sans font-thin text-justify tracking-wider  text-[#d5ceb6]"
                 initial={{ opacity: 0, y:500  }}
-                animate={{  opacity: [0, 1, 0, 1,0, 1, 0, 1,0, 1, 0, 1],x:[0],opacity: [0, 1, 0, 1,0, 1, 0, 1,0, 1, 0, 1],y:[500,0] }}
+                animate={{  opacity: [0, 1, 0, 1,0, 1, 0, 1,0, 1, 0, 1],x:[0],y:[500,0] }}
                 exit={{ opacity: [0, 1, 0, 1, 0] ,x:[0,500] }}
                 
                 
