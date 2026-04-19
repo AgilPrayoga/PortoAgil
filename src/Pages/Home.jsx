@@ -18,7 +18,7 @@ const Home= () =>{
             animate={{  opacity: [0, 1, 0, 1],x:[100,0],y:[0] }}
             exit={{ opacity: [0, 1, 0, 1, 0] ,x:[0,100] }}
             
-            >BUILDING DIGITAL<a href="#" className="text-[#2C3333] bg-[#d5ceb6] "></a></m.h1>
+            >BUILDING DIGITAL<span className="text-[#2C3333] bg-[#d5ceb6] "></span></m.h1>
             <m.div
             initial={{ opacity: 0, y:100  }}
             animate={{  opacity: [0, 1, 0, 1,0, 1, 0, 1,0, 1, 0, 1],x:[0],y:[100,0] }}
@@ -41,7 +41,7 @@ const Home= () =>{
             
             
             >
-                <img className="h-[200px] rounded-full" src={Dipo} />
+                <img className="h-[200px] rounded-full" src={Dipo} alt="Project 1 preview"/>
                 <p className="text-[#d5ceb6] mt-3">hello, i'm agil!</p>
             </m.div>
             

@@ -22,11 +22,11 @@ const Work= () =>{
             transision={{ease:'anticipate',duration:2}}
             exit={{ opacity: [0, 1, 0, 1, 0] ,x:[500,0] }}
             
-            >PROFESSIONAL <a href="#"  className="text-[#2C3333] bg-[#d5ceb6] ">PROJECTS</a></m.h1>
+            >PROFESSIONAL <span  className="text-[#2C3333] bg-[#d5ceb6] ">PROJECTS</span></m.h1>
             <div className="flex flex-col sm:flex-row justify-center items-center">
                 <div className="sm:mr-28  flex justify-center items-center mb-2 flex-col">
                     <div >
-                            <a href={Project1} target="_blank" rel="noopener noreferrer"><img className="max-w-[400px]" src={Project1}/></a>
+                            <a href={Project1} target="_blank" rel="noopener noreferrer"><img className="max-w-[400px]" src={Project1} alt="Project 1 preview"/></a>
                             <div className="mt-2 flex justify-center items-center  border border-[#F0E9D2] p-2">
                 <h1 className='font-extrabold text-[20px] font-montserrat text-[#2C3333] bg-[#d5ceb6] hover:text-[#d5ceb6] hover:bg-[#2C3333] ' >Profile DBON Kaltim </h1>
                 
@@ -36,7 +36,7 @@ const Work= () =>{
                 </div>
                 <div className="sm:mr-28 mb-2">
                     <div >
-                           <a href={Project2} target="_blank" rel="noopener noreferrer"> <img className="max-w-[300px]" src={Project2}/></a>
+                           <a href={Project2} target="_blank" rel="noopener noreferrer"> <img className="max-w-[300px]" src={Project2} alt="Project 1 preview"/></a>
                             <div className="mt-2 flex justify-center items-center  border border-[#F0E9D2] p-2">
                 <h1 className='font-extrabold text-[20px] font-montserrat text-[#2C3333] bg-[#d5ceb6] hover:text-[#d5ceb6] hover:bg-[#2C3333] ' >Aplikasi Pembayaran </h1>
                 
@@ -62,7 +62,7 @@ const Work= () =>{
             transision={{ease:'anticipate',duration:2}}
             exit={{ opacity: [0, 1, 0, 1, 0] ,x:[500,0] }}
             
-            >ACADEMIC <a href="#"  className="text-[#2C3333] bg-[#d5ceb6] ">PROJECTS</a></m.h1>
+            >ACADEMIC <span  className="text-[#2C3333] bg-[#d5ceb6] ">PROJECTS</span></m.h1>
             <div className="flex flex-col sm:flex-row justify-center items-center">
                 <div className="sm:mr-28  flex justify-center items-center mb-2 flex-col">
                     <div class="embed-responsive embed-responsive-21by9">

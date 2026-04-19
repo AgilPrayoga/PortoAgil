@@ -17,24 +17,21 @@ const AboutMe = () =>{
                 animate={{  opacity: [0, 1, 0, 1],x:[0],y:[-300,0] }}
                 exit={{ opacity: [0, 1, 0, 1, 0] ,x:[0,300] }}
 
-                >ABOUT <a href="#" className="text-[#2C3333] bg-[#d5ceb6] ">ME</a></m.h1>
+                >ABOUT <span className="text-[#2C3333] bg-[#d5ceb6] ">ME</span></m.h1>
                 <m.p className="font-sans font-thin tracking-widerst text-[#d5ceb6]"
                 initial={{ opacity: 0, x:[300]  }}
-                animate={{  opacity: [0, 1, 0, 1,0, 1, 0, 1,0, 1, 0, 1],x:[0],x:[-300,0] }}
+                animate={{  opacity: [0, 1, 0, 1,0, 1, 0, 1,0, 1, 0, 1],x:[-300,0] }}
                 exit={{ opacity: [0, 1, 0, 1, 0] ,x:[0,300] }}
                 
                 
-                >Hello World! My name is Ari Agil Prayoga, and you can call me  <a href="#"  className="text-[#d5ceb6] font-montserrat w-fit hover:text-[#2C3333] hover:bg-[#d5ceb6]">AGIL</a> . </m.p>
+                >Hello World! My name is Ari Agil Prayoga, and you can call me  <span  className="text-[#d5ceb6] font-montserrat w-fit hover:text-[#2C3333] hover:bg-[#d5ceb6]">AGIL</span> . </m.p>
                 <br />
                 <m.p className="font-sans font-thin text-justify tracking-wider  text-[#d5ceb6]"
                 initial={{ opacity: 0, y:500  }}
                 animate={{  opacity: [0, 1, 0, 1,0, 1, 0, 1,0, 1, 0, 1],x:[0],y:[500,0] }}
-                exit={{ opacity: [0, 1, 0, 1, 0] ,x:[0,500] }}
-                
-                
-                
+                exit={{ opacity: [0, 1, 0, 1, 0] }}
                 >
-                    I'm an <a href="#"  className="text-[#d5ceb6]  font-montserrat w-fit hover:text-[#2C3333] font-bold hover:bg-[#d5ceb6]">Informatics Engineering graduate with over 2 years of professional experience as a Web Developer.</a> <br /> I have hands-on experience in developing and maintaining web applications using <a href="#"  className="text-[#d5ceb6] font-bold  font-montserrat w-fit hover:text-[#2C3333] hover:bg-[#d5ceb6]">Laravel and CodeIgniter,</a><br /> focusing on building efficient, scalable, and user-friendly systems In addition to development,design and technology trends.</m.p>
+                    I'm an <span  className="text-[#d5ceb6]  font-montserrat w-fit hover:text-[#2C3333] font-bold hover:bg-[#d5ceb6]">Informatics Engineering graduate with over 2 years of professional experience as a Web Developer.</span> <br /> I have hands-on experience in developing and maintaining web applications using <span  className="text-[#d5ceb6] font-bold  font-montserrat w-fit hover:text-[#2C3333] hover:bg-[#d5ceb6]">Laravel and CodeIgniter,</span><br /> focusing on building efficient, scalable, and user-friendly systems In addition to development,design and technology trends.</m.p>
                     <br />
                 <m.p className="font-sans font-thin text-justify  tracking-wider text-[#d5ceb6]"
                 initial={{ opacity: 0, y:500  }}
@@ -46,7 +43,7 @@ const AboutMe = () =>{
                 
                 
                 >
-                 <a href="#"  className="text-[#d5ceb6]  font-montserrat w-fit hover:text-[#2C3333] font-bold hover:bg-[#d5ceb6]">I have also been involved in user support, troubleshooting, and providing training and system socialization</a> <br />
+                 <span  className="text-[#d5ceb6]  font-montserrat w-fit hover:text-[#2C3333] font-bold hover:bg-[#d5ceb6]">I have also been involved in user support, troubleshooting, and providing training and system socialization</span> <br />
                   to ensure users can effectively utilize the applications.
                 </m.p>
                 <m.p className="font-sans font-thin text-justify  tracking-wider text-[#d5ceb6]"
@@ -72,7 +69,7 @@ const AboutMe = () =>{
             exit={{ opacity: [0, 1, 0, 1, 0] ,x:[500,0] }}
             >
                 <div className=" flex items-center justify-center bg-[#d5ceb6]   h-[250px] w-[250px] rounded-sm overflow-hidden">
-                <img src={Me}/>
+                <img src={Me} alt="Project 1 preview"/>
                 
 
                 </div>
