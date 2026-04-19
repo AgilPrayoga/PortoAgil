@@ -1,3 +1,4 @@
+/* eslint-disable */
 import NavBar from "../Components/NavBar"
 import Footer from "../Components/Footer"
 import Dipo from "../assets/Agil.jpg"

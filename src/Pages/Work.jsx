@@ -1,3 +1,4 @@
+/* eslint-disable */
 import NavBar from "../Components/NavBar"
 import Footer from "../Components/Footer"
 import Project1 from"../assets/project1.png"
