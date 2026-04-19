@@ -9,7 +9,6 @@ import 'flowbite'
 const AboutMe = () =>{
     return(
        <div>
-        
         <NavBar/>
         <div className=" sm:h-[90vh] bg-[#2C3333] flex flex-col sm:flex-row justify-center items-center pt-9 sm:pt-6 overflow-hidden">
             <div className="m-8">
