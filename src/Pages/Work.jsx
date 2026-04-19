@@ -1,5 +1,8 @@
 import NavBar from "../Components/NavBar"
 import Footer from "../Components/Footer"
+import Project1 from"../assets/project1.png"
+import Project2 from"../assets/project2.png"
+import Project3 from"../assets/project3.png"
 import { NavLink } from "react-router-dom"
 import { motion as m } from "framer-motion"
 import 'flowbite'
@@ -11,15 +14,55 @@ const Work= () =>{
        <div>
         
         <NavBar/>
-        <div className="sm:h-[90vh] bg-[#2C3333] flex justify-center items-center flex-col pt-28 sm:pt-0 ">
-            <m.h1 className="font-extrabold font-montserrat text-[40px] text-[#d5ceb6] sm:mb-6 "
+        <div className=" overflow-auto bg-[#2C3333] flex justify-center items-center flex-col pt-28 sm:pt-0 ">
+            <m.h1 className="font-extrabold font-montserrat text-[40px] mt-28 my-3 text-[#d5ceb6] sm:mb-6 "
             
             initial={{ opacity: 0, y:500  }}
             animate={{  opacity: [0, 1, 0, 1,],x:[0],y:[500,0] }}
             transision={{ease:'anticipate',duration:2}}
             exit={{ opacity: [0, 1, 0, 1, 0] ,x:[500,0] }}
             
-            >LARAVEL <a className="text-[#2C3333] bg-[#d5ceb6] ">PROJECTS</a></m.h1>
+            >PROFESSIONAL <a className="text-[#2C3333] bg-[#d5ceb6] ">PROJECTS</a></m.h1>
+            <div className="flex flex-col sm:flex-row justify-center items-center">
+                <div className="sm:mr-28  flex justify-center items-center mb-2 flex-col">
+                    <div >
+                            <a href={Project1} target="_blank" rel="noopener noreferrer"><img className="max-w-[400px]" src={Project1}/></a>
+                            <div className="mt-2 flex justify-center items-center  border border-[#F0E9D2] p-2">
+                <h1 className='font-extrabold text-[20px] font-montserrat text-[#2C3333] bg-[#d5ceb6] hover:text-[#d5ceb6] hover:bg-[#2C3333] ' >Profile DBON Kaltim </h1>
+                
+            </div>
+                    </div>
+                    
+                </div>
+                <div className="sm:mr-28 mb-2">
+                    <div >
+                           <a href={Project2} target="_blank" rel="noopener noreferrer"> <img className="max-w-[300px]" src={Project2}/></a>
+                            <div className="mt-2 flex justify-center items-center  border border-[#F0E9D2] p-2">
+                <h1 className='font-extrabold text-[20px] font-montserrat text-[#2C3333] bg-[#d5ceb6] hover:text-[#d5ceb6] hover:bg-[#2C3333] ' >Aplikasi Pembayaran </h1>
+                
+            </div>
+                    </div>
+                    
+                </div>
+                <div>
+                    <div>
+                            <a href={Project3} target="_blank" rel="noopener noreferrer"><img className="max-w-[300px]" src={Project3}/></a>
+ <div className="mt-2 flex justify-center items-center  border border-[#F0E9D2] p-2">
+                <h1 className='font-extrabold text-[20px] font-montserrat text-[#2C3333] bg-[#d5ceb6] hover:text-[#d5ceb6] hover:bg-[#2C3333] ' >Aplikasi IT Helpdesk  </h1>
+                
+            </div>
+                    </div>
+                </div>
+            </div>
+           
+            <m.h1 className="font-extrabold font-montserrat text-[40px] my-3 text-[#d5ceb6] sm:mb-6 "
+            
+            initial={{ opacity: 0, y:500  }}
+            animate={{  opacity: [0, 1, 0, 1,],x:[0],y:[500,0] }}
+            transision={{ease:'anticipate',duration:2}}
+            exit={{ opacity: [0, 1, 0, 1, 0] ,x:[500,0] }}
+            
+            >ACADEMIC <a className="text-[#2C3333] bg-[#d5ceb6] ">PROJECTS</a></m.h1>
             <div className="flex flex-col sm:flex-row justify-center items-center">
                 <div className="sm:mr-28  flex justify-center items-center mb-2 flex-col">
                     <div class="embed-responsive embed-responsive-21by9">
@@ -59,6 +102,8 @@ const Work= () =>{
              </div>
              
             </m.div>
+
+            
             
 
            
